@@ -6,9 +6,27 @@ public class Student {
 	private String student_name;
 	private int age;
 	private boolean stutas;
+	
+	
+	public Student()
+	{
+		
+	}
+	
+	public Student(int student_id, String student_name, int age, boolean stutas) {
+		super();
+		this.student_id = student_id;
+		this.student_name = student_name;
+		this.age = age;
+		this.stutas = stutas;
+	}
+
+
+
 	public int getStudent_id() {
 		return student_id;
 	}
+	
 	public void setStudent_id(int student_id) {
 		this.student_id = student_id;
 	}
