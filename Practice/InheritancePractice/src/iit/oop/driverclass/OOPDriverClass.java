@@ -1,5 +1,6 @@
 package iit.oop.driverclass;
 
+import iit.oop.inheritance.DerivedBike;
 import iit.oop.inheritance.MountainBike;
 
 public class OOPDriverClass {
@@ -8,9 +9,18 @@ public class OOPDriverClass {
 		// TODO Auto-generated method stub
 
 		
-		MountainBike bike = new MountainBike(3, 200, 10);
+//		MountainBike bike = new MountainBike(3, 200, 10);
+//		
+//		System.out.println(bike.toString());
 		
-		System.out.println(bike.toString());
+		
+		DerivedBike bike = new DerivedBike();
+		bike.parentClass();
+		bike.
+		bike.
+		
+		
+		
 	}
 
 }

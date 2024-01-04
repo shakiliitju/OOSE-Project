@@ -10,6 +10,9 @@ public class Bicycle {
 		this.speed = speed;
 	}
 	
+	public Bicycle() {
+		
+	}
 	
 	public void applyBrake(int decrement) {
 		speed -= decrement;
@@ -19,6 +22,10 @@ public class Bicycle {
 		speed += increment;
 	}
 
+	
+	public void parentClass() {
+		System.out.println("This is a parant Class");
+	}
 
 	@Override
 	public String toString() {
