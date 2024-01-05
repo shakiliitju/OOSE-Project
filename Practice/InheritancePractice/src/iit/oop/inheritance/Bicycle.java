@@ -24,7 +24,15 @@ public class Bicycle {
 
 	
 	public void parentClass() {
-		System.out.println("This is a parant Class");
+		System.out.println("This is a parant Class Bicycle");
+	}
+	
+	public void childClass() {
+		System.out.println("This is a child Class");
+	}
+	
+	public void mountainInterClass() {
+		System.out.println("This is a mount Inter Class");
 	}
 
 	@Override
