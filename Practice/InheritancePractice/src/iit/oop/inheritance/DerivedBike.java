@@ -2,10 +2,6 @@ package iit.oop.inheritance;
 
 public class DerivedBike extends MountainBike{
 
-
-	public DerivedBike() {
-		
-	}
 	
 	public DerivedBike(int gear, int speed, int startHeight) {
 		super(gear, speed, startHeight);
